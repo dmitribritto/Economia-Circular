@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 29, 29);
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 40px;
+    color: rgb(197, 197, 197);
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
+}
+h3{
+    color: rgb(0, 0, 0);
+}
+h4, p{
+    text-align: justify;
+    line-height: 27px;
+}
+.menu li a:hover{
+    background-color:rgba(131, 172, 138, 0.356);
+    transition: 0.3s;
+}
+a{
+    text-decoration: none;
+    color: rgba(243, 252, 246, 0.932);
+}
+
+.titulo{
+    text-align: center;
+    background-color: rgba(76, 170, 90, 0.049);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 5px;
+}
+
+.header{
+    background-color: rgba(90, 148, 90, 0.623);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.header img{
+    width: 280px;
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 16px;
+    text-align: center;
+    width: 120px;
+}
+.menu li a{
+    display: block;
+    padding: 12px;
+    background-color: rgba(80, 122, 87, 0.527);
+    border-radius: 3px;
+}
+.container{
+    background-color: rgba(196, 212, 199, 0.363);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.container img{
+    width: 100%;
+    height: 500px;
+}
+section{
+    background-color: rgba(140, 189, 150, 0.363);
+    padding: 50px;
+    max-width: 540px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+.escolhas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    width: 100vw;
+}
+.itens{
+    background-color: rgb(201, 201, 201);
+    padding: 25px;
+    margin: 15px;
+    width: 500px;
+    height: 500px;
+    max-height: 600px;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 7px rgba(0, 0, 0, 0.267);
+    align-content: center;
+}
+.questoes img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.itens h3{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ods img{
+    margin-top: 120px;
+    margin-left: 30px;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+}
+.ods{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.text-ods{
+    margin-top: 100px;
+    margin-right: 30px;
+}
+.tres{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.onze{
+    display: flex;
+
+    margin-top: 110px;
+}
+.doze{
+    display: flex;
+
+    margin-top: 180px;
+}
+.quinze{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 140px;
+}
+.text-ods p{
+    color: white;
+    font-size: xx-large;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 4;
+}
+.questoes p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    line-height: 50px;
+    margin: 50px;
+}
+footer{
+    background-color: rgb(146, 146, 146);
+    align-items: center;
+    justify-content: center;
+}
+.f{
+    background-color: rgba(13, 61, 3, 0.554);
+    height: 150px;
+}
+
+.f img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 23px;
+}
+.paginas ul li{
+    margin: 50px;
+    font-size: x-large;
+}
+.paginas ul li a{
+    color: black;
+}
+.paginas ul li a:hover{
+    color: rgb(26, 44, 34);
+}
+.content{
+    flex: 1;
+}
+.form{
+    background-color: rgba(79, 102, 84, 0.795);
+    padding: 100px;
+    max-width: 840px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+#formulario{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+#formulario input[type="text"],
+#formulario input[type="email"],
+#formulario textarea{
+    width: 100%;
+    padding: 25px;
+    margin-top: 20px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    background-color: rgba(247, 247, 247, 0.966);
+}
+#formulario input[type="submit"]{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(17, 90, 40, 0.712);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+    font-size:medium;
+}
+#formulario input[type="submit"]:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgba(17, 90, 54, 0.589);
+}
+.nos img{
+    width: 400px;
+    height: auto;
+    margin: 30px;
+}
+.nos{
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+.a, .b, .c, .ce, .d{
+    margin: 20px;
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(201, 201, 201);
+    box-shadow: 0 8px 16px 7px rgba(0, 0, 0, 0.267);
+    align-content: center;
+}
+.a, .b, .c, .ce, .d p{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.nos p{
+    margin-left: 30px;
+}
+.sobre{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin: 50px;
+}
+.info{
+    color: rgb(173, 172, 172);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    margin: 50px;
+}
